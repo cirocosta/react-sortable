@@ -99,4 +99,5 @@ The Sortable mixin expects the following properties to be defined on your Sortab
 - **sort** (the method that will be called when an item is moved)
 - **data** (the complete list being sorted)
 - **key** (React recommends that you [use this](http://facebook.github.io/react/docs/reconciliation.html#keys))
+- **data-id** (so that the lib knows how to decide the way to sort)
 - **item** (The item itself)
